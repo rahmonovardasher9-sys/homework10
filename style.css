@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+}
+.q {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.w {
+  width: 300px;
+  border-radius: 30px;
+  border: 1px solid #c2c9bb;
+  background-color: #f4f4ee;
+  padding: 10px 40px;
+}
+.e {
+  margin-top: -20px;
+}
+.r {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.t{
+    font-size: 14px;
+    font-weight: 100;
+}
+.y{
+    width: 25px;
+}

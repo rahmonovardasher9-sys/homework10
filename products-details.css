@@ -49,9 +49,9 @@
 }
 .p {
   display: flex;
-  margin-left: 10px;
+  margin-left: 7px;
   gap: 1%;
-  margin-top: -20px;
+  margin-top: -16px;
 }
 .a {
   width: 23.3%;
@@ -155,6 +155,7 @@
   font-size: 10px;
 }
 .w2 {
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -200,4 +201,101 @@
   padding: 20px 0px;
   border-top: 1px solid #e3e3de;
   margin-top: 20px;
+}
+@media (max-width: 640px) {
+  .j2 {
+    display: none;
+  }
+  .q {
+    padding: 10px;
+  }
+  .l2 {
+    width: 25px;
+    display: inherit;
+  }
+  .y {
+    display: none;
+  }
+  .s {
+    font-size: 8px;
+  }
+  .d {
+    font-size: 6px;
+  }
+  .f {
+    font-size: 3px;
+    margin-top: 5px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+  }
+  .h {
+    font-size: 4px;
+  }
+  .g {
+    margin-top: 2px;
+  }
+  .j {
+    margin-top: 5px;
+    font-size: 4px;
+    display: flex;
+    gap: 5px;
+    padding: 3px 8px;
+  }
+  .k {
+    font-size: 4px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .z {
+    font-size: 10px;
+  }
+  .c {
+    font-size: 5px;
+  }
+  .v {
+    width: 20%;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  .b {
+    margin-top: 2px;
+    font-size: 2.5px;
+  }
+  .n {
+    width: 100%;
+  }
+  .m {
+    font-size: 2px;
+    margin-top: 0px;
+  }
+  .w2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+  }
+  .q2 {
+    width: 100%;
+    font-size: 2px;
+    padding: 2px;
+    border-radius: 2px;
+    border: 0.4px solid #154212;
+  }
+  .a2{
+    font-size: 14px;
+  }
+  .s2{
+    font-size: 9px;
+    font-weight: 100;
+  }
+  .f2{
+    padding: 2px;
+    width: 15px;
+  }
+  .g2{
+    margin-left: 2px;
+  }
+  .k2{
+    font-size: 10px;
+  }
 }

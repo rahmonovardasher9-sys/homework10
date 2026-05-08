@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+}
+.q {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+}
+.e {
+  margin-top: -20px;
+}
+.r {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.y {
+  width: 25px;
+}
+.h2 {
+  text-decoration: none;
+  color: #154212;
+}
+.j2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.u {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.i {
+  border-radius: 24px;
+  padding: 30px;
+  border: 1px solid #e7e7e7;
+  width: 30%;
+}
+.o {
+  color: #154212;
+  display: inline-block;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #154212;
+}
+.p {
+  border-bottom: 1px solid #e7e7e7;
+}
+.a {
+  color: #42493e;
+  border-bottom: none;
+  margin-left: 20px;
+}
+.s {
+  font-size: 14px;
+  font-weight: 300;
+  color: #42493e;
+  margin-top: 30px;
+}
+.d {
+  color: #6b7280;
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #6b7280;
+  width: 97%;
+}
+.d:focus {
+  border: 1px solid #6b7280;
+}
+.f {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  color: #42493e;
+}
+.g {
+  margin-left: 10px;
+}
+.h {
+  background-color: #154212;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  width: 101%;
+  border-radius: 12px;
+  border: none;
+  padding: 10px;
+  margin-top: 25px;
+}
+.j {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0px;
+  color: #42493e;
+  font-weight: 100;
+}
+.k {
+  border-radius: 12px;
+  border: 1px solid #e7e7e7;
+  color: black;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.l {
+  width: 20px;
+}
+.z {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.x {
+  font-size: 12px;
+  font-weight: 100;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 30px;
+}
+.x span {
+  color: #154212;
+  text-decoration: underline;
+}

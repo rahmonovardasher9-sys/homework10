@@ -1,0 +1,295 @@
+* {
+  margin: 0px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.q {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+}
+.e {
+  margin-top: 0px;
+}
+.r {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.y {
+  width: 25px;
+}
+.h2 {
+  text-decoration: none;
+  color: #154212;
+}
+.j2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.l2 {
+  display: none;
+}
+.u {
+  background-image: url(./img/img40.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
+  color: white;
+}
+.i {
+  font-size: 32px;
+  font-weight: 700;
+}
+.o {
+  font-size: 14px;
+  font-weight: 100;
+}
+.p {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 1%;
+}
+.s {
+  width: 100%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.a {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.d {
+  width: 31%;
+  border-radius: 12px;
+  border: 1px solid #ebebeb;
+}
+.f {
+  padding: 10px;
+}
+.g {
+  font-size: 18px;
+  color: #154212;
+}
+.h {
+  margin: 10px 0px;
+  font-size: 10px;
+  font-weight: 100;
+}
+.j {
+  font-size: 9px;
+  font-weight: 100;
+  color: #42493e;
+}
+.k {
+  font-size: 10px;
+  color: #154212;
+  background-color: rgb(138, 255, 167);
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.l {
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: rgb(243, 243, 243);
+}
+.z {
+  font-size: 24px;
+  color: #154212;
+}
+.x {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+  margin: auto;
+  margin-top: 20px;
+}
+.c {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.v {
+  font-size: 18px;
+  color: #154212;
+}
+.b {
+  font-size: 11px;
+  margin-top: 10px;
+  font-weight: 100;
+  color: #42423e;
+}
+.n {
+  padding: 50px 40px;
+  text-align: center;
+}
+.m {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  background-color: #154212;
+  border-radius: 20px;
+}
+.q2 {
+  font-size: 28px;
+}
+.w2 {
+  color: #9dd090;
+  font-size: 15px;
+  font-weight: 100;
+}
+.e2 {
+  color: #154212;
+  background-color: white;
+  border-radius: 30px;
+  padding: 15px 40px;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.a2 {
+  color: #154212;
+  font-size: 20px;
+}
+.s2 {
+  color: #42493e;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 5px 0px;
+}
+.d2 {
+  padding: 40px;
+  background-color: rgb(240, 240, 240);
+  padding-bottom: 0px;
+}
+.f2 {
+  width: 23px;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: rgb(226, 226, 226);
+}
+.g2 {
+  margin-left: 10px;
+}
+.h2 {
+  text-decoration: none;
+  color: #154212;
+}
+.j2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.k2 {
+  font-size: 12px;
+  color: #42493e;
+  font-weight: 100;
+  padding: 20px 0px;
+  border-top: 1px solid #e3e3de;
+  margin-top: 20px;
+}
+@media (max-width: 640px) {
+  .j2 {
+    display: none;
+  }
+  .u{
+    padding: 50px 10px;
+  }
+  .l2 {
+    display: inherit;
+    width: 25px;
+  }
+  .y {
+    display: none;
+  }
+  .q {
+    padding: 5px 10px;
+  }
+  .i {
+    font-size: 16px;
+  }
+  .o {
+    font-size: 6px;
+  }
+  .a {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .d {
+    width: 100%;
+  }
+  .z {
+    font-size: 20px;
+  }
+  .z2 {
+    width: 48px;
+  }
+  .x {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .c{
+    width: 100%;
+  }
+  .v{
+    font-size: 14px;
+  }
+  .b{
+  font-size: 8px;
+  }
+  .n{
+    padding: 20px 10px;
+  }
+  .m{
+    padding: 20px 10px;
+  }
+  .q2{
+    font-size: 12px;
+  }
+  .x2{
+    display: none;
+  }
+  .w2{
+    font-size: 10px;
+  }
+  .e2{
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+  .d2{
+    padding: 20px 10px;
+  }
+  .a2{
+    font-size: 16px;
+  }
+  .s2{
+    font-size: 8px;
+  }
+  .f2{
+    padding: 2px;
+    width: 15px;
+  }
+  .k2{
+    font-size: 12px;
+    padding-bottom: 0px;
+  }
+}

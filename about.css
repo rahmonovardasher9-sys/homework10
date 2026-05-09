@@ -1,0 +1,281 @@
+* {
+  margin: 0px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.q {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+}
+.e {
+  margin-top: 0px;
+}
+.r {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.y {
+  width: 25px;
+}
+.h2 {
+  text-decoration: none;
+  color: #154212;
+}
+.j2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.l2 {
+  display: none;
+}
+.u {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.i {
+  width: 50%;
+}
+.o {
+  color: #154212;
+  font-size: 12px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.p {
+  color: #154212;
+  font-size: 32px;
+}
+.a {
+  font-size: 16px;
+  margin: 20px 0px;
+  font-weight: 100;
+  color: #42493e;
+}
+.s {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+.d {
+  width: 50%;
+}
+.f {
+  border: 1px solid #e7e7e7;
+  border-left: 3px solid #154212;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+}
+.g {
+  color: #154212;
+  font-size: 20px;
+}
+.h {
+  font-size: 12px;
+  font-weight: 100;
+  color: #42493e;
+}
+.j {
+  background-color: rgb(233, 233, 233);
+  margin-top: 20px;
+  border: none;
+}
+.k {
+  width: 18px;
+}
+.z {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.l {
+  width: 30%;
+}
+.x{
+    color: #154212;
+    font-size: 16px;
+    margin: 8px 0px;
+}
+.c{
+    font-size: 8px;
+    font-weight: 100;
+    color: #42493e;
+}
+.v{
+    padding: 40px 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    margin-top: 40px;
+    position: relative;
+}
+.b{
+    color: #154212;
+    font-size: 24px;
+}
+.n{
+    font-size: 16px;
+    color: #42493e;
+    font-weight: 100;
+    line-height: 140%;
+    margin-top: 10px;
+}
+.m{
+    background-color: #154212;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+}
+.q2{
+    position: absolute;
+    top: 80px;
+    width: 120px;
+    right: 150px;
+}
+.w2{
+    position: absolute;
+    top: 80px;
+}
+.e2{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+.a2 {
+  color: #154212;
+  font-size: 20px;
+}
+.s2 {
+  color: #42493e;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 5px 0px;
+}
+.d2 {
+  padding: 40px;
+  background-color: rgb(240, 240, 240);
+  padding-bottom: 0px;
+}
+.f2 {
+  width: 23px;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: rgb(226, 226, 226);
+}
+.g2 {
+  margin-left: 10px;
+}
+.h2 {
+  text-decoration: none;
+  color: #154212;
+}
+.j2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.k2 {
+  font-size: 12px;
+  color: #42493e;
+  font-weight: 100;
+  padding: 20px 0px;
+  border-top: 1px solid #e3e3de;
+  margin-top: 20px;
+}
+@media(max-width:640px){
+    .q{
+        padding: 5px 10px;
+    }
+    .j2{
+        display: none;
+    }
+    .l2{
+        display: inherit;
+        width: 25px;
+    }
+    .y{
+        display: none;
+    }
+    .u{
+        padding: 20px 10px;
+        display: block;
+    }
+    .o{
+        font-size: 10px;
+    }
+    .p{
+        font-size: 14px;
+    }
+    .r2{
+        display: none;
+    }
+    .i{
+        width: 100%;
+    }
+    .a{
+        font-size: 10px;
+        margin: 10px 0px;
+    }.g{
+        font-size: 12px;
+    }
+    .h{
+        font-size: 8px;
+    }
+    .x{
+        font-size: 13px;
+    }
+    .c{
+        font-size: 8px;
+    }
+    .k{
+        width: 15px;
+    }
+    .b{
+        font-size: 14px;
+    }
+    .n{
+        font-size: 8px;
+    }
+    .m{
+        font-size: 8px;
+        padding: 5px 15px;
+    }
+    .q2{
+        width: 60px;
+    }
+    .e2{
+        position: absolute;
+    }
+    .w2{
+        position: absolute;
+        right: 100px;
+    }
+    .a2{
+        font-size: 12px;
+    }
+    .d2{
+        padding: 20px 10px;
+    }
+    .s2{
+        font-size: 8px;
+    }
+    .f2{
+        padding: 2px;
+        width: 15px;
+    }
+    .k2{
+        font-size: 12px;
+    }
+}
